@@ -1,0 +1,57 @@
+@media screen and (max-width: 560px) {
+    .information {
+        display: none;
+    }
+
+    .container {
+        width: 480px;
+    }
+
+    .bg-logo {
+        display: none;
+    }
+
+    html {
+        font-size: 0.8em;
+    }
+
+    .cover-wallp .container {
+        flex-direction: column;
+        background: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        /* transform: translateY(-10px); */
+        height: 80px;
+        overflow: visible;
+    }
+
+    nav {
+        padding: 0px;
+    }
+
+    header ul {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .section {
+        padding: 30px 0px;
+    }
+
+    .square .text-box {
+        width: 80%;
+    }
+
+    .benefit {
+        padding: 40px 10px 500px;
+    }
+
+    .benefit .image {
+        position: absolute;
+        left: 0px;
+        top: auto;
+        right: auto;
+        width: 100%;
+        max-width: 100%;
+        bottom: 0px;
+    }
+}

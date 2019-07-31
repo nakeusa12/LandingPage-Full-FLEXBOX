@@ -1,0 +1,114 @@
+@media screen and (max-width: 920px) {
+    .container {
+        width: 850px;
+    }
+
+    header ul {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .bg-logo {
+        left: -20px;
+        width: 150px;
+        height: 320px;
+    }
+
+    nav .logo img {
+        height: 50px;
+        margin-left: 40px;
+    }
+
+    .text-word h2 {
+        font-size: 20px;
+    }
+
+    .box {
+        flex-direction: column;
+    }
+
+    .square {
+        margin-top: 20px;
+    }
+
+    .square .icon {
+        width: 100px;
+    }
+
+    .square .text-box {
+        width: 50%;
+    }
+
+    .benefit .container .image {
+        max-width: 450px;
+        width: 450px;
+        height: 450px;
+    }
+
+    .benefit ul li {
+        font-size: 13.5px;
+        padding-top: 10px;
+        padding-left: 30px;
+    }
+
+    .benefit {
+        padding-bottom: 130px;
+    }
+
+    .benefit ul li::before {
+        top: 12px;
+    }
+
+    .btn-register {
+        position: absolute;
+        transform: translateX(50%);
+        left: 50px;
+    }
+
+    .said .fhoto {
+        width: 100px;
+        height: 100px;
+    }
+
+    .subscribe .container {
+        flex-direction: column;
+    }
+
+    .div-text {
+        text-align: center;
+    }
+
+    .subscribe form {
+        margin-top: 20px;
+    }
+
+    footer .wrap-info .info {
+        width: 100%;
+    }
+
+    .info p {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    footer .wrap-info .our-plans {
+        margin-top: 150px;
+        width: 50%;
+        position: absolute;
+    }
+
+    footer .wrap-info .partner {
+        margin-top: 150px;
+        width: 50%;
+        transform: translateX(-50%);
+    }
+
+    .image-partner {
+        flex-direction: column;
+        flex-flow: row wrap;
+    }
+
+    .image-partner img {
+        width: 90px;
+    }
+}

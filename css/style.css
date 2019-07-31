@@ -1,0 +1,577 @@
+html,
+body {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+*::selection {
+    background: rgb(255, 24, 112);
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper {
+    max-width: none;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Informasi */
+.information {
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    z-index: 2;
+    font-size: 13px;
+    font-size: 10px;
+}
+
+.information .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.information .container .costumer {
+    z-index: 99;
+}
+
+.information .container .account {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.account .lang,
+.account .profil {
+    display: flex;
+    justify-content: center;
+    padding: 0px 1px;
+    align-items: center;
+}
+
+.account i {
+    font-size: 17px;
+    padding: 0px 5px;
+}
+
+/* Header */
+header {
+    background-image: url(../Source/wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.cover-wallp {
+    height: 600px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.bg-logo {
+    position: absolute;
+    width: 200px;
+    height: 380px;
+    top: -200px;
+    left: -30px;
+    transform: rotate(-50deg);
+    background: white;
+    z-index: -19;
+}
+
+nav {
+    padding: 25px 0px;
+}
+
+nav .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo {
+    filter: invert(100%);
+    height: 80px;
+    z-index: 3;
+}
+
+.logo img {
+    height: 100%;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: white;
+}
+
+.text-word {
+    padding: 90px 0px;
+}
+
+.text-word .container {
+    color: white;
+}
+
+.text-word h1 {
+    font-size: 50px;
+}
+
+.text-word h2 {
+    padding-bottom: 20px;
+}
+
+.btn {
+    padding: 10px 0px;
+    border: 1px solid white;
+    width: 150px;
+    text-align: center;
+}
+
+.btn a {
+    color: white;
+}
+
+/* Why */
+.section {
+    padding: 80px 0px;
+}
+
+.section h1 {
+    font-size: 40px;
+    margin: 0px;
+    padding-bottom: 5px;
+    font-weight: normal;
+    position: relative;
+}
+
+.section h1::after {
+    width: 100px;
+    height: 4px;
+    background: #000;
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.why {
+    background: #e9dacd;
+}
+
+.section h1+p {
+    margin: 40px 0px;
+}
+
+.why h1+p {
+    width: 90%;
+    font-size: 1.23em;
+}
+
+.box {
+    display: flex;
+    /* justify-content: center; */
+}
+
+.box img {
+    width: 100%;
+}
+
+.square {
+    display: flex;
+}
+
+.square .icon {
+    width: 200px;
+}
+
+.square .text-box {
+    padding: 0px 10px;
+}
+
+.square .text-box h4,
+.square .text-box p {
+    margin: 0px;
+}
+
+.square .text-box h4 {
+    text-transform: uppercase;
+}
+
+.square .text-box p {
+    font-size: 14px;
+    padding: 10px 0px;
+}
+
+.square .text-box a {
+    font-size: 14px;
+    color: rgb(95, 95, 255);
+}
+
+/* Benefit */
+.benefit {
+    position: relative;
+    padding: 80px 0px;
+}
+
+.benefit .container {
+    display: flex;
+}
+
+.benefit .container .txtw {
+    width: 50%;
+    font-size: 1.15rem;
+}
+
+.benefit .container .image {
+    right: 0px;
+    top: 0px;
+    position: absolute;
+    max-width: 600px;
+    width: 600px;
+    height: 100%;
+}
+
+.benefit img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.benefit ul li {
+    position: relative;
+    padding-left: 20px;
+}
+
+.benefit ul li::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: black;
+    transform: rotate(45deg);
+    left: 0px;
+    top: 5px;
+    position: absolute;
+}
+
+.btn-register {
+    margin-top: 40px;
+    padding: 10px 0px;
+    width: 350px;
+    text-align: center;
+    background: #000;
+    box-shadow: 5px 5px 0px 0px rgb(37, 37, 37);
+}
+
+.btn-register a {
+    color: white;
+    text-transform: uppercase;
+}
+
+/* Plans */
+.plans {
+    background: #f1e8df;
+}
+
+.full-lebar {
+    display: flex;
+    height: 300px;
+    flex-flow: row wrap;
+}
+
+.full-lebar .item {
+    width: 33.3333%;
+}
+
+.item .covering {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.item .covering img {
+    position: absolute;
+    filter: brightness(50%);
+    z-index: 2;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.covering .title {
+    z-index: 3;
+    position: relative;
+}
+
+.title a {
+    padding: 10px 20px;
+    background: white;
+    color: black;
+    font-weight: bold;
+}
+
+.title p {
+    text-align: center;
+    color: #fff;
+}
+
+/* said */
+.said {
+    background: #e9dacd;
+}
+
+.box-profil {
+    display: flex;
+    margin: 0px;
+}
+
+.profil-square {
+    padding: 20px;
+    margin-right: 10px;
+    width: 33.333%;
+    transition: 0.5s all;
+}
+
+.fhoto {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.fhoto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.title-profil {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.title-profil h3 {
+    text-transform: uppercase;
+    margin: 7px 0px;
+
+}
+
+.title-profil h4 {
+    color: rgb(126, 126, 126);
+    text-transform: uppercase;
+    margin: 0px;
+    font-size: 13px;
+}
+
+.title-profil p {
+    padding-top: 50px;
+    margin: 0px;
+}
+
+.profil-square:hover {
+    box-shadow: 1px 1px 10px 1px #222;
+}
+
+/* SUBSCRIBE */
+.subscribe {
+    position: relative;
+    background: rgba(185, 124, 124, 0.7);
+}
+
+.image-subs {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: blur(5px);
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+
+.image-subs img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.subscribe .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div-text h2 {
+    color: white;
+}
+
+.subscribe form {
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe form div {
+    width: 300px;
+    border-radius: 30px;
+    border: 2px solid white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subscribe form div input {
+    margin-left: 10px;
+    background: none;
+    height: 100%;
+    border: none;
+    filter: invert(100%);
+}
+
+.subscribe form div a {
+    padding: 0px;
+    margin: 0px;
+    width: 100px;
+}
+
+.subscribe form div img {
+    height: 100%;
+    float: right;
+    width: 50%;
+    margin-right: 20px;
+    filter: invert(100%);
+}
+
+/* Footer */
+footer {
+    background: #271818;
+    color: white;
+    padding: 80px 0px 0px 0px;
+    font-size: 0.9em;
+    position: relative;
+}
+
+.contentinfo .container .wrap-info {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.wrap-info .info,
+.wrap-info .our-plans,
+.wrap-info .partner {
+    width: 33.33333%;
+}
+
+.info img {
+    width: 150px;
+    filter: invert(100%);
+}
+
+.info p {
+    width: 80%;
+    font-size: 13px;
+}
+
+.info .btn-info {
+    /* border: 2px solid white; */
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.info .btn-info a {
+    color: white;
+}
+
+.our-plans ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.our-plans .images {
+    width: 80px;
+}
+
+.our-plans .images img {
+    width: 100%;
+}
+
+.our-plans ul li {
+    display: flex;
+    padding: 5px 0px;
+    align-items: center;
+}
+
+.our-plans .text-plans {
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.partner .image-partner {
+    display: flex;
+    width: 100%;
+}
+
+.image-partner ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.image-partner ul li {
+    margin: 1px;
+}
+
+.image-partner img {
+    width: 100px;
+    height: 100%;
+}
+
+.end-copy {
+    background: #000;
+    padding: 10px 0px;
+}
+
+.end-copy .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.end-copy .media img {
+    filter: invert(100%);
+    width: 20px;
+    margin: 0px 5px;
+}
